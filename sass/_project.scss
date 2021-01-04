@@ -20,3 +20,13 @@
     background-color: #000000;
   }
 }
+.list-group-item{
+  &:first-child {
+    color: white;
+    background-color: #000000;
+  }
+  &:last-child {
+    color: white;
+    background-color: #000000;
+  }
+}

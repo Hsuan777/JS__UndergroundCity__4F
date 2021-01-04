@@ -9308,4 +9308,14 @@ fieldset:disabled .btn {
   height: 5px;
   background-color: #000000;
 }
+
+.list-group-item:first-child {
+  color: white;
+  background-color: #000000;
+}
+
+.list-group-item:last-child {
+  color: white;
+  background-color: #000000;
+}
 /*# sourceMappingURL=all.css.map */
