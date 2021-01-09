@@ -10449,6 +10449,9 @@ fieldset:disabled .btn {
 }
 
 .custom__title {
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  text-align-last: justify;
   position: relative;
 }
 
