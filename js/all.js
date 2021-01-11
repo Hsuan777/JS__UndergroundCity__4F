@@ -33,5 +33,11 @@ const clockCreate = () => {
   })
   return str
 }
-list.innerHTML = clockCreate()
+
+const currentTime = () => {
+  list.innerHTML = clockCreate()
+  requestAnimationFrame(currentTime)
+}
+
+currentTime()
 
